@@ -1,0 +1,4 @@
+- [ ] Implement `execute_command` tool wrapping `gemini-cli`.
+- [ ] Ensure `yolo` mode is enforced.
+- [ ] Handle stdout/stderr capture strictly.
+- [ ] Verify environment inheritance for global config access.

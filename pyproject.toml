@@ -1,0 +1,14 @@
+[project]
+name = "gemini-copilot-mcp"
+version = "0.1.0"
+description = "MCP Bridge for Gemini CLI"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "pydantic>=2.0.0",
+    "pyyaml>=6.0.3",
+]
+
+[project.scripts]
+gemini-copilot-mcp = "gemini_copilot_mcp.server:main"
